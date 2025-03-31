@@ -68,6 +68,19 @@ public class Main {
         //2D arrays
         int[][] finalMarks = {{21,34,67},{65,34,65}};
         System.out.println(finalMarks[1][0]);
+
+        //CASTING
+        //implicit casting // is done automatically
+        double price= 100.00;
+        double finalPrice= price + 18;
+        System.out.println(finalPrice);
+
+        //explicit casting
+        int p= 100;
+//        int fp= p+ 18.0; //error
+        int finalp= p+ (int)18.13; //after decimal all the numbers are removed without roundoff
+        System.out.println(finalp);
+
     }
 }
 //methods are the functions written in classes
