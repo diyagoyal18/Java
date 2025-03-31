@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -115,6 +116,16 @@ public class Main {
         //random
         System.out.println((int)(Math.random()*100)); //gives a random value between 0.0 to 1.0
 
+        //INPUT
+        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter your age: ");
+//        int ageofChild  = sc.nextInt(); //used to input int
+//        System.out.println(ageofChild); //input lena hi tough h isme to
+//
+//        String st = sc.next(); //used to input string (tokens only i.e. only a single word
+        String st= sc.nextLine(); //take input of the whole line
+        System.out.println(st);
+//        System.out.println(st);
     }
 }
 //methods are the functions written in classes
