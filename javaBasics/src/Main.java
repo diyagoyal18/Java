@@ -31,7 +31,20 @@ public class Main {
         String roomie= new String("akanksha");
         System.out.println(roomie);
 
-
+        //STRINGS
+        //concatenate
+        String name2= " Goyal";
+        String name3= name1+ name2;
+        System.out.println(name3);
+        //charAt
+        System.out.println(name2.charAt(2)); // java is 0 index base lang
+        //length
+        System.out.println(name2.length());
+        //replace
+      String name4= name2.replace('y', 'p'); //doesnot make changes in the original string but makes a different string
+        System.out.println(name4); //java strings are immutable
+        //substring
+        System.out.println(name3.substring(2,6)); // end index is not included
     }
 }
 //methods are the functions written in classes
