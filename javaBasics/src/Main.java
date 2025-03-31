@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
@@ -45,6 +47,27 @@ public class Main {
         System.out.println(name4); //java strings are immutable
         //substring
         System.out.println(name3.substring(2,6)); // end index is not included
+
+        //ARRAYS
+        //also a non primitive data type
+        //declaration
+        int[] marks= new int[3];
+        marks[0]=132;
+        marks[1]=22;
+        marks[2]=323;
+        //or
+        int[] ages= {12,34,32};
+        System.out.println(marks[0]); //in java if a variable is not given any value, it is initialised with null value or 0 but in c++ it was initialised with the garbage value
+        boolean[] hello= new boolean[2];
+        System.out.println(hello[1]); // in case of boolean its false
+        //length
+        System.out.println(marks.length); //here no parenthesis is needed with length as its a property in  arrays and not a function
+        //sort
+        Arrays.sort(marks);
+        System.out.println(marks[0]);
+        //2D arrays
+        int[][] finalMarks = {{21,34,67},{65,34,65}};
+        System.out.println(finalMarks[1][0]);
     }
 }
 //methods are the functions written in classes
