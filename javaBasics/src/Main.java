@@ -81,6 +81,40 @@ public class Main {
         int finalp= p+ (int)18.13; //after decimal all the numbers are removed without roundoff
         System.out.println(finalp);
 
+        //CONSTANTS
+        final float PI= 3.14F; //constants are usually stored in capital lettered variables
+
+        //OPERATORS
+        //arithmetic operators
+        int a= 1;
+        int b=5;
+        int c=a+b;
+        int d= a-b;
+        int e= a*b;
+        int f=b/a;
+        int g= b%a;
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(g);
+
+        //assignment operators like =
+        //unary operators
+        int n=1;
+        System.out.println(n++); //1
+        System.out.println(n); //2
+        System.out.println(++n); //3
+        System.out.println(n); //3
+
+        //MATH CLASS
+        //max
+        System.out.println(Math.max(4,8));
+        //min
+        System.out.println(Math.min(4,8));
+        //random
+        System.out.println((int)(Math.random()*100)); //gives a random value between 0.0 to 1.0
+
     }
 }
 //methods are the functions written in classes
