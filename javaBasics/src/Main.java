@@ -173,7 +173,22 @@ public class Main {
                 break;
             }
         }
+        //EXCEPTION HANDLING
+        //try catch
+        try {
+            int result = 10 / 0; // This will cause an ArithmeticException
+        } catch (ArithmeticException exception) {
+            System.out.println("Error: Division by zero is not allowed.");
+        }
+
+        printJava();
     }
+
+    public static void printJava(){
+        System.out.println("helo");
+    }
+
+
 }
 //methods are the functions written in classes
 //println gives a line space after printing the output but if we write only print no space is given
