@@ -123,9 +123,56 @@ public class Main {
 //        System.out.println(ageofChild); //input lena hi tough h isme to
 //
 //        String st = sc.next(); //used to input string (tokens only i.e. only a single word
-        String st= sc.nextLine(); //take input of the whole line
-        System.out.println(st);
+//        String st= sc.nextLine(); //take input of the whole line
 //        System.out.println(st);
+//        System.out.println(st);
+
+        //CONDITIONAL STATEMENTS
+        boolean isSunUp= true;
+        if(isSunUp==true)
+            System.out.println("day");
+        else
+            System.out.println("night");
+
+        //LOGICAL OPERATORS
+        //&&
+        // ||
+        // !
+
+        //LOOPS
+        // FOR LOOP
+        for(int i=0;i<10;i++){
+            System.out.println(i);
+        }
+
+        //  WHILE LOOP
+        int i=0;
+        while (i<10){
+            System.out.println(i);
+            i++;
+        }
+
+        //DO-WHILE LOOP
+        int k=1;
+        do{
+            System.out.println(k);
+            k++;
+        }
+        while (k<3);
+
+        //BREAK
+        int m=0;
+        while(true){
+            if(m==3){
+                m++;
+                continue;
+            }
+            System.out.println("m=" + m);
+            m++;
+            if(m>5){
+                break;
+            }
+        }
     }
 }
 //methods are the functions written in classes
